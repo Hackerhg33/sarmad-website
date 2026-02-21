@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sarmad | Diploma Engineer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  background:#f4f6f9;
+  color:#333;
+}
+
+/* Header */
+header{
+  background:#0f172a;
+  color:white;
+  padding:20px 10%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+header h1{
+  font-size:22px;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin-left:20px;
+  font-weight:500;
+}
+
+nav a:hover{
+  color:#38bdf8;
+}
+
+/* Hero */
+.hero{
+  height:90vh;
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+  url('https://images.unsplash.com/photo-1581090700227-4c4d4c6d3e66');
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color:white;
+  padding:20px;
+}
+
+.hero h2{
+  font-size:38px;
+  margin-bottom:15px;
+}
+
+.hero p{
+  font-size:18px;
+  margin-bottom:25px;
+}
+
+.btn{
+  padding:12px 25px;
+  background:#38bdf8;
+  color:white;
+  border:none;
+  text-decoration:none;
+  border-radius:5px;
+  font-weight:600;
+  transition:0.3s;
+}
+
+.btn:hover{
+  background:#0ea5e9;
+}
+
+/* About */
+.about{
+  padding:80px 10%;
+  text-align:center;
+}
+
+.about h2{
+  margin-bottom:20px;
+  font-size:30px;
+}
+
+/* Contact */
+.contact{
+  background:#0f172a;
+  color:white;
+  padding:60px 10%;
+  text-align:center;
+}
+
+footer{
+  text-align:center;
+  padding:15px;
+  background:#020617;
+  color:white;
+}
+
+@media(max-width:768px){
+  .hero h2{
+    font-size:26px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Sarmad | Diploma Engineer</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <h2>Hello, I'm Sarmad</h2>
+    <p>Diploma Engineer | Technical Innovator | Web & Electronics Enthusiast</p>
+    <a href="#contact" class="btn">Contact Me</a>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a Diploma student passionate about technology, electronics, robotics and web development.
+    I enjoy building innovative projects and working on new ideas.
+  </p>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact Details</h2>
+  <p><strong>Name:</strong> Sarmad</p>
+  <p><strong>Qualification:</strong> Diploma</p>
+  <p><strong>Phone:</strong> 9682512166</p>
+</section>
+
+<footer>
+  © 2026 Sarmad | All Rights Reserved
+</footer>
+
+</body>
+</html>
